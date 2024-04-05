@@ -1,0 +1,37 @@
+[gd_scene load_steps=8 format=3 uid="uid://bpunouvnv2ade"]
+
+[ext_resource type="Texture2D" uid="uid://bf16qqqjv32xl" path="res://Textures/dirt_full_new.png" id="1_pq54b"]
+[ext_resource type="PackedScene" uid="uid://bcil271m00lnr" path="res://Player/player.tscn" id="2_tlgxq"]
+[ext_resource type="PackedScene" uid="uid://c13ne8kbl1xmw" path="res://Utility/enemy_spawner.tscn" id="3_atnka"]
+[ext_resource type="PackedScene" uid="uid://buke3y5x4vnfj" path="res://Enemy/enemy.tscn" id="3_wekhr"]
+[ext_resource type="Script" path="res://Utility/spawn_info.gd" id="5_4grkp"]
+
+[sub_resource type="Resource" id="Resource_slkoe"]
+script = ExtResource("5_4grkp")
+time_start = 0
+time_end = 5
+enemy = ExtResource("3_wekhr")
+enemy_num = 1
+enemy_spawn_delay = 0
+
+[sub_resource type="Resource" id="Resource_52by3"]
+script = ExtResource("5_4grkp")
+time_start = 5
+time_end = 60
+enemy = ExtResource("3_wekhr")
+enemy_num = 10
+enemy_spawn_delay = 0
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+texture_filter = 2
+texture_repeat = 2
+texture = ExtResource("1_pq54b")
+region_enabled = true
+region_rect = Rect2(0, 0, 4000, 4000)
+
+[node name="Player" parent="." instance=ExtResource("2_tlgxq")]
+
+[node name="EnemySpawner" parent="." instance=ExtResource("3_atnka")]
+spawns = Array[ExtResource("5_4grkp")]([SubResource("Resource_slkoe"), SubResource("Resource_52by3")])
