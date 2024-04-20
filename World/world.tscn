@@ -24,9 +24,9 @@ enemy_num = 10
 enemy_spawn_delay = 0
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_4yrm2"]
-vertices = PackedVector2Array(201, 19, 201, -31, 1891, -672, 1902, 1034, 16, -100, 16, -150, 105, -32, -1181, -670, -80, -151, -80, -150, -130, -151, -1172, 1056, -130, 58, -80, 58, -80, -100, 55, -32, 55, 177, 105, -31, 105, 177, 105, 19)
-polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 5, 2, 1, 6), PackedInt32Array(7, 2, 5, 8), PackedInt32Array(5, 9, 8), PackedInt32Array(7, 8, 10), PackedInt32Array(11, 7, 10, 12), PackedInt32Array(13, 14, 4, 15, 16), PackedInt32Array(1, 17, 6), PackedInt32Array(4, 6, 15), PackedInt32Array(18, 19, 0, 3), PackedInt32Array(18, 3, 11, 16), PackedInt32Array(16, 11, 12, 13)])
-outlines = Array[PackedVector2Array]([PackedVector2Array(-1192, -680, 1901, -683, 1913, 1044, -1182, 1067)])
+vertices = PackedVector2Array(-172, 467, -88, 565, -229, 598, -279, 598, -461, 595, -461, 292, -308, 319, 201, 271, 419, 257, 469, 257, 229, 413, 114, 414, 884, -69, 884, -119, 967, -256, 1818, -1080, 1902, 1034, 924, 228, 684, -863, 569, -862, -139, -918, -139, -968, 380, -209, 760, -256, 769, -118, -526, 167, -511, 292, -820, 256, -576, 167, 344, 963, -1538, 1281, 248, 964, -511, 595, -279, 853, -374, 854, -686, 805, -686, 755, -460, 855, -555, 856, -660, 857, 831, 802, 344, 913, 735, 803, 581, 603, 581, 553, 779, 531, 924, 531, 831, 752, 716, 753, 229, 463, 530, 553, 466, 554, 380, 555, 285, 556, 109, -476, 430, -522, 480, -522, 633, -432, 284, -340, 234, -340, 874, 228, 657, 99, 657, 49, 788, -68, -526, -42, -442, -289, -323, -522, -323, -120, -338, -41, -526, -41, -442, -339, 967, -306, 684, -819, 485, 603, 630, 754, 535, 755, 485, 604, 133, 463, 180, 557, 133, 464, 588, -812, 633, -812, 480, -733, 483, -811, -88, 967, -229, 904, 380, 605, 430, 756, 285, 606, 683, -818, 889, -402, -130, -151, -130, 58, -162, 189, -258, 108, -338, 9, -273, -120, -707, 551, -707, 340, -757, 340, 55, -32, 55, 271, 28, 415, -67, 416, -162, 239, -80, 58, 109, -526, 333, -602, 430, -602, -522, -542, -522, -592, -6, -525, 683, -432, 760, -306, 380, -259, -874, 755, -874, 754, -757, 551, 201, 221, 419, 48, 388, -810, 430, -733, 16, -100, 234, -129, 284, -129, 483, -115, 483, -65, 469, 48, 201, -31, 588, -66, 469, 49, 105, 221, 105, 19, 201, 19, 105, -31, 105, -32, -258, 189, -172, 417, -258, 319, -258, 239, 874, 229, 779, 229, 580, 170, 469, 99, 779, 279, 874, 279, 874, 481, 779, 481, 580, 553, 530, 170, 735, 802, 630, 804, 535, 805, 430, 806, 143, 915, 48, 916, -38, 916, -38, 565, 229, 914, -757, 421, -854, 421, -870, 256, -854, 471, -757, 471, -924, 754, -874, 963, -874, 805, -660, 907, -355, 904, -355, 903, -279, 903, -279, 904, -38, 967, -38, 966, 48, 966, 248, 963, 143, 965, -460, 905, -555, 906, -924, 963, -1577, -1065, -254, -967, -254, -966, -340, -966, -340, -916, -235, -917, -190, -917, -190, -728, -490, -724, -435, -915, 569, -861, 483, -861, 388, -860, 283, -859, 430, -652, 333, -652, 283, -809, -618, -592, -618, -673, -540, -724, -557, -338, -618, -462, -618, -542, -6, -524, -92, -524, -187, -523, -292, -522, -557, -337, -643, -337, -668, -462, -738, -336, -843, -335, 889, -306, 839, -402, 839, -306, 284, -259, 683, -117, 588, -116, 284, -209, 769, -117, 16, -150, -80, -150, -80, -151, 13, -475, -526, 9, -308, 108, -80, -100, -273, -472, -187, -473, -92, -474, -140, -728, -490, -914, -140, -917, -870, -146, -538, -288, -576, -42, -643, -287, -738, -286, 28, 465, 180, 607, -67, 466, 683, -67, -843, -285, -820, -146, -540, -964, -668, -673, -435, -965)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4, 5, 6), PackedInt32Array(7, 8, 9, 10, 11), PackedInt32Array(12, 13, 14, 15, 16, 17), PackedInt32Array(18, 19, 20, 21, 15), PackedInt32Array(22, 23, 14, 13, 24), PackedInt32Array(25, 5, 26, 27, 28), PackedInt32Array(29, 16, 30, 31), PackedInt32Array(32, 4, 3, 33, 34, 35, 36), PackedInt32Array(35, 34, 37, 38, 39), PackedInt32Array(40, 16, 29, 41, 42), PackedInt32Array(43, 44, 45, 46, 47, 48), PackedInt32Array(46, 16, 40, 47), PackedInt32Array(49, 10, 9, 50, 51, 52, 53), PackedInt32Array(54, 55, 56, 57, 58, 59), PackedInt32Array(12, 17, 60, 61, 62, 63), PackedInt32Array(64, 65, 66, 67, 68, 69), PackedInt32Array(66, 65, 70), PackedInt32Array(15, 14, 71), PackedInt32Array(15, 71, 72, 18), PackedInt32Array(73, 43, 48, 74, 75, 76), PackedInt32Array(77, 49, 53, 78, 79), PackedInt32Array(80, 81, 57, 56, 82, 83), PackedInt32Array(1, 84, 85, 2), PackedInt32Array(86, 76, 75, 87, 88), PackedInt32Array(89, 72, 71, 90), PackedInt32Array(91, 92, 93, 94, 95, 68, 96), PackedInt32Array(26, 32, 36, 97, 98), PackedInt32Array(27, 26, 98, 99), PackedInt32Array(100, 101, 102, 103, 104, 93, 105), PackedInt32Array(55, 54, 106), PackedInt32Array(107, 108, 55, 106, 109, 110), PackedInt32Array(109, 106, 111), PackedInt32Array(112, 113, 23, 22, 114, 57), PackedInt32Array(97, 36, 115, 116, 117), PackedInt32Array(8, 7, 118, 119), PackedInt32Array(120, 83, 82, 121), PackedInt32Array(122, 123, 124, 125, 126, 127, 119, 128), PackedInt32Array(129, 62, 130, 127, 126), PackedInt32Array(118, 131, 132, 133, 119), PackedInt32Array(128, 134, 135), PackedInt32Array(93, 136, 94), PackedInt32Array(137, 138, 139, 104, 103), PackedInt32Array(61, 60, 140, 141, 142, 143), PackedInt32Array(144, 145, 146, 147), PackedInt32Array(45, 44, 148, 142, 147), PackedInt32Array(144, 147, 142), PackedInt32Array(141, 144, 142), PackedInt32Array(143, 142, 149), PackedInt32Array(9, 143, 149, 50), PackedInt32Array(101, 7, 11, 102), PackedInt32Array(42, 150, 40), PackedInt32Array(151, 42, 41, 152), PackedInt32Array(153, 152, 41), PackedInt32Array(154, 155, 156, 157, 158), PackedInt32Array(27, 99, 159, 160, 161), PackedInt32Array(162, 163, 117, 116, 164), PackedInt32Array(165, 166, 35, 39, 167), PackedInt32Array(168, 169, 170, 171), PackedInt32Array(172, 173, 174), PackedInt32Array(31, 175, 29), PackedInt32Array(174, 176, 31, 30, 172), PackedInt32Array(84, 172, 30), PackedInt32Array(85, 84, 30, 171), PackedInt32Array(177, 168, 171, 30, 178), PackedInt32Array(167, 178, 30, 165), PackedInt32Array(179, 165, 30), PackedInt32Array(179, 30, 180, 164), PackedInt32Array(181, 182, 183), PackedInt32Array(184, 185, 186, 187, 110, 188, 189), PackedInt32Array(19, 190, 191, 20), PackedInt32Array(20, 191, 192, 193), PackedInt32Array(120, 121, 194, 195, 196), PackedInt32Array(188, 110, 197, 198, 199), PackedInt32Array(70, 200, 201, 202, 109, 66), PackedInt32Array(111, 203, 204, 109), PackedInt32Array(109, 204, 205, 206, 66), PackedInt32Array(201, 200, 207, 208, 209), PackedInt32Array(209, 208, 210, 211), PackedInt32Array(71, 212, 90), PackedInt32Array(112, 89, 90, 213), PackedInt32Array(213, 214, 113, 112), PackedInt32Array(114, 215, 58, 57), PackedInt32Array(216, 217, 125, 124, 218, 22, 24), PackedInt32Array(24, 219, 216), PackedInt32Array(220, 221, 222, 223, 54, 59), PackedInt32Array(25, 224, 95, 225, 6, 5), PackedInt32Array(105, 226, 122, 100), PackedInt32Array(96, 227, 228, 229, 91), PackedInt32Array(196, 195, 107, 110, 230), PackedInt32Array(188, 231, 189), PackedInt32Array(119, 133, 128), PackedInt32Array(123, 122, 220, 59), PackedInt32Array(232, 20, 193, 196, 230), PackedInt32Array(160, 162, 164, 180, 161), PackedInt32Array(233, 161, 180), PackedInt32Array(229, 223, 222, 91), PackedInt32Array(67, 96, 68), PackedInt32Array(234, 65, 64, 235), PackedInt32Array(236, 234, 235, 237), PackedInt32Array(238, 79, 78, 239, 157, 240), PackedInt32Array(16, 46, 17), PackedInt32Array(241, 63, 62, 129), PackedInt32Array(122, 128, 135), PackedInt32Array(122, 135, 100), PackedInt32Array(92, 105, 93), PackedInt32Array(95, 94, 225), PackedInt32Array(187, 230, 110), PackedInt32Array(242, 237, 235, 28, 243), PackedInt32Array(244, 199, 198, 245, 180), PackedInt32Array(245, 209, 211, 180), PackedInt32Array(87, 153, 41, 158, 157, 239), PackedInt32Array(243, 233, 180, 242), PackedInt32Array(6, 138, 137, 0), PackedInt32Array(239, 88, 87), PackedInt32Array(240, 157, 1, 0), PackedInt32Array(28, 27, 243), PackedInt32Array(211, 242, 180), PackedInt32Array(183, 246, 244, 180, 15, 181), PackedInt32Array(21, 181, 15)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-1588, -1075, 1828, -1091, 1913, 1044, -1548, 1292)])
 source_geometry_group_name = &"navigation_polygon_source_group"
 
 [node name="World" type="Node2D"]
@@ -36,7 +36,7 @@ texture_filter = 2
 texture_repeat = 2
 texture = ExtResource("1_pq54b")
 region_enabled = true
-region_rect = Rect2(0, 0, 4000, 4000)
+region_rect = Rect2(0, 0, 2000, 2000)
 
 [node name="Player" parent="." instance=ExtResource("2_tlgxq")]
 
@@ -49,19 +49,396 @@ navigation_polygon = SubResource("NavigationPolygon_4yrm2")
 [node name="Wall" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(-105, 1)
 
+[node name="Wall7" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-283, 166)
+
+[node name="Wall113" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(864, -344)
+
 [node name="Wall2" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(-105, -93)
+
+[node name="Wall8" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-283, 262)
 
 [node name="Wall3" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(-42, -125)
 rotation = 1.5708
 
+[node name="Wall32" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-396, -16)
+rotation = 1.5708
+
+[node name="Wall9" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-220, 214)
+rotation = 1.5708
+
+[node name="Wall96" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-643, -615)
+
+[node name="Wall97" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-643, -519)
+
+[node name="Wall98" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-580, -567)
+rotation = 1.5708
+
+[node name="Wall10" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(259, -282)
+
+[node name="Wall11" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(259, -186)
+
+[node name="Wall70" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(455, -675)
+
+[node name="Wall71" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(455, -579)
+
+[node name="Wall13" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-298, -273)
+
+[node name="Wall14" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-298, -177)
+
+[node name="Wall15" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-298, -464)
+
+[node name="Wall16" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-298, -368)
+
+[node name="Wall107" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-845, 103)
+
+[node name="Wall108" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-845, 199)
+
+[node name="Wall109" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-845, -88)
+
+[node name="Wall110" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-845, 8)
+
+[node name="Wall66" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(658, -585)
+
+[node name="Wall67" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(658, -489)
+
+[node name="Wall68" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(658, -776)
+
+[node name="Wall69" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(658, -680)
+
+[node name="Wall54" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-63, 814)
+
+[node name="Wall55" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-63, 910)
+
+[node name="Wall56" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-63, 623)
+
+[node name="Wall57" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-63, 719)
+
+[node name="Wall21" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(555, 419)
+
+[node name="Wall22" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(555, 515)
+
+[node name="Wall23" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(555, 228)
+
+[node name="Wall24" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(555, 324)
+
+[node name="Wall81" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-254, 847)
+
+[node name="Wall82" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-254, 656)
+
+[node name="Wall83" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-254, 752)
+
+[node name="Wall17" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-45, -499)
+rotation = -4.72286
+
+[node name="Wall18" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(51, -500)
+rotation = -4.72286
+
+[node name="Wall19" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-235, -497)
+rotation = -4.72286
+
+[node name="Wall20" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-140, -498)
+rotation = -4.72286
+
+[node name="Wall62" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(530, -836)
+rotation = -4.72286
+
+[node name="Wall63" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(626, -837)
+rotation = -4.72286
+
+[node name="Wall64" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(340, -834)
+rotation = -4.72286
+
+[node name="Wall65" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(435, -835)
+rotation = -4.72286
+
+[node name="Wall58" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(190, 940)
+rotation = -4.72286
+
+[node name="Wall59" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(286, 939)
+rotation = -4.72286
+
+[node name="Wall60" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-5.53131e-05, 942)
+rotation = -4.72286
+
+[node name="Wall61" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(94.9999, 941)
+rotation = -4.72286
+
+[node name="Wall25" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(427, 580)
+rotation = -4.72286
+
+[node name="Wall26" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(523, 579)
+rotation = -4.72286
+
+[node name="Wall27" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(237, 582)
+rotation = -4.72286
+
+[node name="Wall28" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(332, 581)
+rotation = -4.72286
+
+[node name="Wall84" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-413, 880)
+rotation = -4.72286
+
+[node name="Wall85" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-317, 879)
+rotation = -4.72286
+
+[node name="Wall86" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-603, 882)
+rotation = -4.72286
+
+[node name="Wall87" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-508, 881)
+rotation = -4.72286
+
+[node name="Wall39" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(74.9999, 440)
+rotation = -4.72286
+
+[node name="Wall40" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(171, 439)
+rotation = -4.72286
+
+[node name="Wall41" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-115, 442)
+rotation = -4.72286
+
+[node name="Wall42" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-20.0001, 441)
+rotation = -4.72286
+
+[node name="Wall77" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(677, 779)
+rotation = -4.72286
+
+[node name="Wall78" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(773, 778)
+rotation = -4.72286
+
+[node name="Wall79" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(487, 781)
+rotation = -4.72286
+
+[node name="Wall80" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(582, 780)
+rotation = -4.72286
+
+[node name="Wall43" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(730, -92)
+rotation = -4.72286
+
+[node name="Wall44" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(826, -93)
+rotation = -4.72286
+
+[node name="Wall45" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(540, -90)
+rotation = -4.72286
+
+[node name="Wall46" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(635, -91)
+rotation = -4.72286
+
+[node name="Wall99" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-293, -941)
+rotation = -4.72286
+
+[node name="Wall100" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-197, -942)
+rotation = -4.72286
+
+[node name="Wall101" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-483, -939)
+rotation = -4.72286
+
+[node name="Wall102" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-388, -940)
+rotation = -4.72286
+
+[node name="Wall47" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-596, -312)
+rotation = -4.72286
+
+[node name="Wall48" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-500, -313)
+rotation = -4.72286
+
+[node name="Wall49" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-786, -310)
+rotation = -4.72286
+
+[node name="Wall50" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-691, -311)
+rotation = -4.72286
+
+[node name="Wall12" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(322, -234)
+rotation = 1.5708
+
+[node name="Wall72" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(390, -627)
+rotation = 1.5708
+
+[node name="Wall88" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-732, 398)
+
+[node name="Wall89" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-732, 494)
+
+[node name="Wall90" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-797, 446)
+rotation = 1.5708
+
 [node name="Wall4" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(80, 120)
+
+[node name="Wall33" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(80, 214)
 
 [node name="Wall5" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(80, 26)
 
+[node name="Wall91" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(899, 380)
+
+[node name="Wall92" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(899, 474)
+
+[node name="Wall93" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(899, 286)
+
+[node name="Wall51" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-486, 444)
+
+[node name="Wall52" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-486, 538)
+
+[node name="Wall53" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-486, 350)
+
 [node name="Wall6" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(143, -6)
+rotation = 1.5708
+
+[node name="Wall94" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(836, 254)
+rotation = 1.5708
+
+[node name="Wall34" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(143, 246)
+rotation = 1.5708
+
+[node name="Wall95" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(836, 506)
+rotation = 1.5708
+
+[node name="Wall29" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-551, 110)
+
+[node name="Wall30" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-551, 16)
+
+[node name="Wall31" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-488, -16)
+rotation = 1.5708
+
+[node name="Wall35" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(599, 74)
+rotation = 1.5708
+
+[node name="Wall36" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(444, 200)
+
+[node name="Wall37" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(444, 106)
+
+[node name="Wall103" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-515, -781)
+
+[node name="Wall104" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-515, -875)
+
+[node name="Wall105" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-165, -785)
+
+[node name="Wall106" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-165, -879)
+
+[node name="Wall38" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(507, 74)
+rotation = 1.5708
+
+[node name="Wall111" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(909, -281)
+rotation = 1.5708
+
+[node name="Wall112" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(817, -281)
+rotation = 1.5708
+
+[node name="Wall73" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-744, 780)
+rotation = 1.5708
+
+[node name="Wall74" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-899, 906)
+
+[node name="Wall75" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-899, 812)
+
+[node name="Wall76" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-836, 780)
 rotation = 1.5708
