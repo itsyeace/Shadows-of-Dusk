@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://bpunouvnv2ade"]
+[gd_scene load_steps=10 format=3 uid="uid://bpunouvnv2ade"]
 
 [ext_resource type="Texture2D" uid="uid://bf16qqqjv32xl" path="res://Textures/dirt_full_new.png" id="1_pq54b"]
 [ext_resource type="PackedScene" uid="uid://bcil271m00lnr" path="res://Player/player.tscn" id="2_tlgxq"]
 [ext_resource type="PackedScene" uid="uid://c13ne8kbl1xmw" path="res://Utility/enemy_spawner.tscn" id="3_atnka"]
 [ext_resource type="PackedScene" uid="uid://buke3y5x4vnfj" path="res://Enemy/enemy.tscn" id="3_wekhr"]
 [ext_resource type="Script" path="res://Utility/spawn_info.gd" id="5_4grkp"]
+[ext_resource type="PackedScene" uid="uid://c5uwmscat18g0" path="res://World/wall.tscn" id="6_16qlj"]
 
 [sub_resource type="Resource" id="Resource_slkoe"]
 script = ExtResource("5_4grkp")
@@ -22,6 +23,12 @@ enemy = ExtResource("3_wekhr")
 enemy_num = 10
 enemy_spawn_delay = 0
 
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_4yrm2"]
+vertices = PackedVector2Array(201, 19, 201, -31, 1891, -672, 1902, 1034, 16, -100, 16, -150, 105, -32, -1181, -670, -80, -151, -80, -150, -130, -151, -1172, 1056, -130, 58, -80, 58, -80, -100, 55, -32, 55, 177, 105, -31, 105, 177, 105, 19)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 5, 2, 1, 6), PackedInt32Array(7, 2, 5, 8), PackedInt32Array(5, 9, 8), PackedInt32Array(7, 8, 10), PackedInt32Array(11, 7, 10, 12), PackedInt32Array(13, 14, 4, 15, 16), PackedInt32Array(1, 17, 6), PackedInt32Array(4, 6, 15), PackedInt32Array(18, 19, 0, 3), PackedInt32Array(18, 3, 11, 16), PackedInt32Array(16, 11, 12, 13)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-1192, -680, 1901, -683, 1913, 1044, -1182, 1067)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+
 [node name="World" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
@@ -35,3 +42,26 @@ region_rect = Rect2(0, 0, 4000, 4000)
 
 [node name="EnemySpawner" parent="." instance=ExtResource("3_atnka")]
 spawns = Array[ExtResource("5_4grkp")]([SubResource("Resource_slkoe"), SubResource("Resource_52by3")])
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_4yrm2")
+
+[node name="Wall" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-105, 1)
+
+[node name="Wall2" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-105, -93)
+
+[node name="Wall3" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(-42, -125)
+rotation = 1.5708
+
+[node name="Wall4" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(80, 120)
+
+[node name="Wall5" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(80, 26)
+
+[node name="Wall6" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
+position = Vector2(143, -6)
+rotation = 1.5708

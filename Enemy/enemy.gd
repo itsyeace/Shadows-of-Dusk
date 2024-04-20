@@ -6,12 +6,18 @@ extends CharacterBody2D
 @onready var player = get_tree().get_first_node_in_group("player")
 @onready var sprite = $Sprite2D
 @onready var anim = $AnimationPlayer
+@onready var nav : NavigationAgent2D = $NavigationAgent2D
 
 func _ready():
 	anim.play("walk")
 
 func _physics_process(delta):
-	var direction = global_position.direction_to(player.global_position)
+	var direction = Vector2()
+	
+	nav.target_position = player.global_position
+	
+	direction = nav.get_next_path_position() - global_position
+	direction = direction.normalized()
 	velocity = direction*movement_speed
 	move_and_slide()
 	
