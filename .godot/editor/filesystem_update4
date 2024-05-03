@@ -1,7 +1,8 @@
-res://Player/Attack/javelin.tscn
-res://Player/Attack/javelin.gd
-res://World/world.tscn
 res://Player/player.tscn
+res://Player/player.gd
+res://Objects/experience_gem.tscn
+res://Objects/experience_gem.gd
+res://World/world.tscn
 res://Enemy/enemy.tscn
 res://Utility/hit_box.tscn
 res://Utility/hurt_box.tscn
@@ -10,3 +11,5 @@ res://Player/Attack/ice_spear.tscn
 res://World/wall.tscn
 res://Enemy/explosion.tscn
 res://Player/Attack/tornado.tscn
+res://Player/Attack/javelin.tscn
+res://Enemy/enemy.gd

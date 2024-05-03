@@ -442,3 +442,5 @@ position = Vector2(-899, 812)
 [node name="Wall76" parent="NavigationRegion2D" instance=ExtResource("6_16qlj")]
 position = Vector2(-836, 780)
 rotation = 1.5708
+
+[node name="Loot" type="Node2D" parent="." groups=["loot"]]
