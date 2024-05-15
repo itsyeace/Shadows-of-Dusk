@@ -20,7 +20,7 @@ script = ExtResource("5_4grkp")
 time_start = 5
 time_end = 60
 enemy = ExtResource("3_wekhr")
-enemy_num = 10
+enemy_num = 1
 enemy_spawn_delay = 0
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_4yrm2"]

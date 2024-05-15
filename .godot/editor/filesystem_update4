@@ -1,7 +1,12 @@
 res://Player/player.tscn
 res://Player/player.gd
+res://Utility/upgrade_db.tscn
+res://Utility/upgrade_db.gd
 res://Utility/item_option.tscn
 res://Utility/item_option.gd
+res://Player/Attack/ice_spear.gd
+res://Player/Attack/tornado.gd
+res://Player/Attack/javelin.gd
 res://World/world.tscn
 res://Enemy/enemy.tscn
 res://Utility/hit_box.tscn
