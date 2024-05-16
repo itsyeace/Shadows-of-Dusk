@@ -1,12 +1,4 @@
 res://Player/player.tscn
-res://Player/player.gd
-res://Utility/upgrade_db.tscn
-res://Utility/upgrade_db.gd
-res://Utility/item_option.tscn
-res://Utility/item_option.gd
-res://Player/Attack/ice_spear.gd
-res://Player/Attack/tornado.gd
-res://Player/Attack/javelin.gd
 res://World/world.tscn
 res://Enemy/enemy.tscn
 res://Utility/hit_box.tscn
@@ -18,3 +10,9 @@ res://Enemy/explosion.tscn
 res://Player/Attack/tornado.tscn
 res://Player/Attack/javelin.tscn
 res://Objects/experience_gem.tscn
+res://Utility/item_option.tscn
+res://Utility/upgrade_db.tscn
+res://Player/player.gd
+res://Utility/enemy_spawner.gd
+res://Player/Gui/item_container.tscn
+res://Player/Gui/item_container.gd
