@@ -1,6 +1,11 @@
-res://Player/player.tscn
 res://World/world.tscn
-res://Enemy/enemy.tscn
+res://Enemy/enemy_kobold_weak.tscn
+res://Enemy/enemy.gd
+res://Enemy/enemy_kobold_strong.tscn
+res://Enemy/enemy_cyclops.tscn
+res://Enemy/enemy_juggernaut.tscn
+res://Enemy/enemy_super.tscn
+res://Player/player.tscn
 res://Utility/hit_box.tscn
 res://Utility/hurt_box.tscn
 res://Utility/enemy_spawner.tscn
@@ -12,7 +17,4 @@ res://Player/Attack/javelin.tscn
 res://Objects/experience_gem.tscn
 res://Utility/item_option.tscn
 res://Utility/upgrade_db.tscn
-res://Player/player.gd
-res://Utility/enemy_spawner.gd
 res://Player/Gui/item_container.tscn
-res://Player/Gui/item_container.gd
