@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://bpunouvnv2ade"]
+[gd_scene load_steps=23 format=3 uid="uid://bpunouvnv2ade"]
 
 [ext_resource type="Texture2D" uid="uid://bf16qqqjv32xl" path="res://Textures/dirt_full_new.png" id="1_pq54b"]
 [ext_resource type="PackedScene" uid="uid://bcil271m00lnr" path="res://Player/player.tscn" id="2_tlgxq"]
@@ -10,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://cqgg84h2tjy8f" path="res://Enemy/enemy_cyclops.tscn" id="7_prfyg"]
 [ext_resource type="PackedScene" uid="uid://dqx6fap3lt78v" path="res://Enemy/enemy_juggernaut.tscn" id="8_hsht3"]
 [ext_resource type="PackedScene" uid="uid://cu74wdvgrv5kr" path="res://Enemy/enemy_super.tscn" id="9_fopth"]
+[ext_resource type="AudioStream" uid="uid://dturcgb2111mp" path="res://Audio/Music/battleThemeA.mp3" id="11_kd5kd"]
+[ext_resource type="Script" path="res://Audio/Music/snd_music.gd" id="12_tmpwl"]
 
 [sub_resource type="Resource" id="Resource_mfbpq"]
 script = ExtResource("5_4grkp")
@@ -504,3 +506,12 @@ position = Vector2(-836, 780)
 rotation = 1.5708
 
 [node name="Loot" type="Node2D" parent="." groups=["loot"]]
+
+[node name="snd_music" type="AudioStreamPlayer" parent="."]
+process_mode = 3
+stream = ExtResource("11_kd5kd")
+volume_db = -25.0
+autoplay = true
+script = ExtResource("12_tmpwl")
+
+[connection signal="playerdeath" from="Player" to="snd_music" method="_on_player_playerdeath"]

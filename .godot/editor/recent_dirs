@@ -1,5 +1,7 @@
-res://Player/Gui
+res://Audio/Music
+res://TitleScreen
 res://Utility
+res://Player/Gui
 res://Objects
 res://Player/Attack
 res://Enemy
