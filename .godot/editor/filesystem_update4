@@ -1,8 +1,6 @@
+res://World/world.tscn
 res://Player/player.tscn
 res://Utility/basic_button.tscn
-res://Utility/basic_button.gd
-res://Player/player.gd
 res://TitleScreen/menu.tscn
-res://TitleScreen/menu.gd
-res://World/world.tscn
-res://Audio/Music/snd_music.gd
+res://Enemy/enemy_juggernaut.tscn
+res://Enemy/enemy_super.tscn

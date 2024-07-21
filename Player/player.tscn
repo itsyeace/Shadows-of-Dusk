@@ -1,14 +1,14 @@
 [gd_scene load_steps=18 format=3 uid="uid://bcil271m00lnr"]
 
-[ext_resource type="Texture2D" uid="uid://yfpnu2un8ef8" path="res://Textures/Player/player_sprite.png" id="1_jmwhb"]
+[ext_resource type="Texture2D" uid="uid://doa3scrwgj2oq" path="res://Textures/Player/player_sprite.png" id="1_jmwhb"]
 [ext_resource type="Script" path="res://Player/player.gd" id="1_sj2dy"]
 [ext_resource type="PackedScene" uid="uid://dnj57g4smqa0q" path="res://Utility/hurt_box.tscn" id="3_n7luf"]
-[ext_resource type="Texture2D" uid="uid://b20jybt3ichjp" path="res://Textures/GUI/exp_background.png" id="4_yefrp"]
-[ext_resource type="Texture2D" uid="uid://bdqgo7ddlxnes" path="res://Textures/GUI/exp_progress.png" id="5_aej0j"]
+[ext_resource type="Texture2D" uid="uid://dx7xx6vfahxlq" path="res://Textures/GUI/exp_background.png" id="4_yefrp"]
+[ext_resource type="Texture2D" uid="uid://dlx33roiu0vlj" path="res://Textures/GUI/exp_progress.png" id="5_aej0j"]
 [ext_resource type="FontFile" uid="uid://bvfd4hyqdlwdx" path="res://Font/tenderness.otf" id="6_3ulhh"]
 [ext_resource type="AudioStream" uid="uid://b7qtnh1jmdr8t" path="res://Audio/SoundEffect/levelup.ogg" id="7_p8cm1"]
-[ext_resource type="Texture2D" uid="uid://cfwabv7uhbjml" path="res://Textures/GUI/healthbar.png" id="8_3aro6"]
-[ext_resource type="Texture2D" uid="uid://dxswae7m8gkko" path="res://Textures/GUI/health.png" id="9_04opn"]
+[ext_resource type="Texture2D" uid="uid://cj6a5rhwov14" path="res://Textures/GUI/healthbar.png" id="8_3aro6"]
+[ext_resource type="Texture2D" uid="uid://da53mspvqfxq4" path="res://Textures/GUI/health.png" id="9_04opn"]
 [ext_resource type="AudioStream" uid="uid://bmqggip0i8th" path="res://Audio/SoundEffect/Victory.wav" id="10_8d4m7"]
 [ext_resource type="AudioStream" uid="uid://cv885ivguyyk6" path="res://Audio/SoundEffect/Lose.ogg" id="11_kin1g"]
 [ext_resource type="PackedScene" uid="uid://b0ib2mxgdqiil" path="res://Utility/basic_button.tscn" id="12_pm5x5"]
@@ -36,6 +36,10 @@ texture = ExtResource("1_jmwhb")
 hframes = 2
 
 [node name="Camera2D" type="Camera2D" parent="."]
+limit_left = -1000
+limit_top = -1000
+limit_right = 1000
+limit_bottom = 1000
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2, 3)

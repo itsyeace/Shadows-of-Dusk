@@ -88,9 +88,9 @@ func movement():
 	var y_mov = Input.get_action_strength("down") - Input.get_action_strength("up")
 	var mov = Vector2(x_mov, y_mov)
 	if mov.x > 0:
-		sprite.flip_h = true
+		sprite.flip_h = false #it was true before sprite change
 	elif mov.x < 0:
-		sprite.flip_h = false
+		sprite.flip_h = true ##it was false before sprite change
 	
 	if mov != Vector2.ZERO:
 		last_movement = mov

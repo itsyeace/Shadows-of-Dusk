@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://cu74wdvgrv5kr"]
 
 [ext_resource type="Script" path="res://Enemy/enemy.gd" id="1_eps0e"]
-[ext_resource type="Texture2D" uid="uid://fx3h2vnyuakq" path="res://Textures/Enemy/giant_amoeba_new.png" id="2_tcv3t"]
+[ext_resource type="Texture2D" uid="uid://ce0hue7fwpa3a" path="res://Textures/Enemy/giant_amoeba_new.png" id="2_tcv3t"]
 [ext_resource type="PackedScene" uid="uid://dnj57g4smqa0q" path="res://Utility/hurt_box.tscn" id="3_funmn"]
 [ext_resource type="PackedScene" uid="uid://c7uwffeq8epe3" path="res://Utility/hit_box.tscn" id="4_q7rqj"]
 [ext_resource type="AudioStream" uid="uid://b8fvl8a2o3a" path="res://Audio/SoundEffect/enemy_hit.ogg" id="5_3q4di"]
@@ -49,10 +49,10 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0lfp6"]
-size = Vector2(141, 117)
+size = Vector2(280, 250)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cwan2"]
-size = Vector2(99, 102)
+size = Vector2(286, 255)
 
 [node name="Enemy_Super" type="CharacterBody2D"]
 collision_layer = 5
@@ -87,7 +87,7 @@ collision_mask = 4
 HurtBoxType = 1
 
 [node name="CollisionShape2D" parent="HurtBox" index="0"]
-position = Vector2(0.5, 5.5)
+position = Vector2(-9, 72)
 shape = SubResource("RectangleShape2D_0lfp6")
 
 [node name="HitBox" parent="." instance=ExtResource("4_q7rqj")]
@@ -95,7 +95,7 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape2D" parent="HitBox" index="0"]
-position = Vector2(3.5, 6)
+position = Vector2(-12, 63.5)
 shape = SubResource("RectangleShape2D_cwan2")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
